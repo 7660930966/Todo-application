@@ -28,7 +28,7 @@ const renderTodos = function (todos, filters) {
     document.querySelector("#todos").innerHTML = "";
 
     const summary = document.createElement("h2");
-    summary.textContent = `you hvae ${incompleteTodos.length} todos left`;
+    summary.textContent = `you have ${incompleteTodos.length} todos left`;
     document.querySelector("#todos").appendChild(summary);
 
     filteredTodos.forEach(function (todo) {
